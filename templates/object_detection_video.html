@@ -1,0 +1,36 @@
+<html>
+<head>
+   <title>Object Detection</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+      .numberplate{
+         justify-content: center;
+         align-items: center;
+         display: flex;
+      }
+      .numberplatetext{
+         justify-content: center;
+         align-items: center;
+         display: flex;
+         background-color: black;
+         border-radius: 15px;
+         width: 400px;
+         height: 150px;
+         margin-left: 550px;
+      }
+   </style>
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/number_plate_video.css') }}">
+</head>
+<body>
+   <header>
+      <h1>Live Object Detection</h1>
+   </header>
+   <br>
+   <div class="numberplate">
+      <img src="ObjVideoLoad" alt="NO CAM DETECTED">
+   </div>
+   <br>
+   <!-- <div class="numberplatetext">hi</div> -->
+</body>
+</html>
