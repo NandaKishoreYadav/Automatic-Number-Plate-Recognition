@@ -7,7 +7,6 @@ This project implements an Automatic Number Plate Recognition (ANPR) system. It 
 - **Number Plate Recognition:** Extracts and recognizes the number plate from images or live video feeds.
 - **Object Detection:** Detects objects in images or live video feeds.
 - **Support for Live Video and Image Upload:** You can process both live video and images by uploading them.
-- 
 
 ## Installation and Setup
 
