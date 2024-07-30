@@ -20,13 +20,13 @@ Follow these steps to set up and run the project:
    
 2. ## Install Tesseract-OCR
 
-1. Download the Tesseract-OCR executable from [this link](https://github.com/UB-Mannheim/tesseract/wiki).
-2. Make a note of the path where `tesseract.exe` is installed.
+-  Download the Tesseract-OCR executable from [this link](https://github.com/UB-Mannheim/tesseract/wiki).
+-  Make a note of the path where `tesseract.exe` is installed.
 
 3. ## Download YOLOv8 Model
 
-1. Download the YOLOv8x model file from [this link](https://github.com/ultralytics/assets/releases/download/v8.1.0/yolov8x.pt).
-2. Place the downloaded `yolov8x.pt` file in the `yolo_model` folder.
+-  Download the YOLOv8x model file from [this link](https://github.com/ultralytics/assets/releases/download/v8.1.0/yolov8x.pt).
+-  Place the downloaded `yolov8x.pt` file in the `yolo_model` folder.
 
 4. Open a command prompt from the project directory and create a new virtual environment:
     ```sh
@@ -47,7 +47,7 @@ Follow these steps to set up and run the project:
     ```
 7. Run the application:
     ```sh
-    streamlit run app.py
+    python app.py
     ```
 ## Usage
 
