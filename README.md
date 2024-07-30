@@ -7,6 +7,7 @@ This project implements an Automatic Number Plate Recognition (ANPR) system. It 
 - **Number Plate Recognition:** Extracts and recognizes the number plate from images or live video feeds.
 - **Object Detection:** Detects objects in images or live video feeds.
 - **Support for Live Video and Image Upload:** You can process both live video and images by uploading them.
+- 
 
 ## Installation and Setup
 
@@ -20,13 +21,13 @@ Follow these steps to set up and run the project:
    
 2. Install Tesseract-OCR
 
--  Download the Tesseract-OCR executable from [this link](https://github.com/UB-Mannheim/tesseract/wiki).
--  Make a note of the path where `tesseract.exe` is installed.
+   -  Download the Tesseract-OCR executable from [this link](https://github.com/UB-Mannheim/tesseract/wiki).
+   -  Make a note of the path where `tesseract.exe` is installed.
 
 3. Download YOLOv8 Model
 
--  Download the YOLOv8x model file from [this link](https://github.com/ultralytics/assets/releases/download/v8.1.0/yolov8x.pt).
--  Place the downloaded `yolov8x.pt` file in the `yolo_model` folder.
+   -  Download the YOLOv8x model file from [this link](https://github.com/ultralytics/assets/releases/download/v8.1.0/yolov8x.pt).
+   -  Place the downloaded `yolov8x.pt` file in the `yolo_model` folder.
 
 4. Open a command prompt from the project directory and create a new virtual environment:
     ```sh
