@@ -12,18 +12,18 @@ This project implements an Automatic Number Plate Recognition (ANPR) system. It 
 
 Follow these steps to set up and run the project:
 
-1. **Clone the Repository:**
+1. Clone the Repository:
 
    ```bash
    git clone https://github.com/NandaKishoreYadav/Automatic-Number-Plate-Recognition.git
    ```
    
-2. ## Install Tesseract-OCR
+2. Install Tesseract-OCR
 
 -  Download the Tesseract-OCR executable from [this link](https://github.com/UB-Mannheim/tesseract/wiki).
 -  Make a note of the path where `tesseract.exe` is installed.
 
-3. ## Download YOLOv8 Model
+3. Download YOLOv8 Model
 
 -  Download the YOLOv8x model file from [this link](https://github.com/ultralytics/assets/releases/download/v8.1.0/yolov8x.pt).
 -  Place the downloaded `yolov8x.pt` file in the `yolo_model` folder.
@@ -60,7 +60,7 @@ Upload an image or select the live video feed option to get started.
 
 ## Notes
 
-- Ensure that the path to `tesseract.exe` is correctly set in your environment if you encounter any issues with OCR.
+- Ensure that the path to `tesseract.exe` is correctly set in line 6 of helper.py.
 - Verify that the YOLO model file is correctly placed in the `yolo_model` folder.
 
 ## Contact
